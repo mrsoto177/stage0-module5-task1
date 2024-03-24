@@ -26,7 +26,7 @@ public class FridgeAlgorithm {
     public static void main(String[] args) {
     
         FridgeAlgorithm fridgeActions = new FridgeAlgorithm();
-        fridgeActions.fridgeAlgorithm(Fridge);
+       // fridgeActions.fridgeAlgorithm(Fridge);
     }
 
 }
