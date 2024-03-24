@@ -68,14 +68,12 @@ public class ArrayTasks {
     public int findIndexOfNumber(int[] arr, int number) {
     	int i;
     	for( i = 1; i<=arr.length;i++ ) {
-    		if(number == arr[i]) {
-    			System.out.println(number);    		
-    			//return i;
-    		} else {
-    			return -1;
-    		}
-    	}
-    	return i;
+    		if( arr[i] == number ) {
+    			//System.out.println(number);    		
+    			return i;
+    		
+    	}}
+    	return -1;
     }
 
     /**
@@ -173,6 +171,7 @@ public class ArrayTasks {
     	tasks.seasonsArray();
     	
     	tasks.generateNumbers(3);
+    	
     	
     	int[] arr = {1, 2, 3, 4, 5};
     	tasks.totalSum(arr);
